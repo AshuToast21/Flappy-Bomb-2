@@ -1,7 +1,7 @@
 // Responsive, restartable Flappy Bird logic with looping background music
 
-let moveSpeed = 1.0;            // pipe speed
-let gravity = 0.19;             // lighter gravity (easier)
+let moveSpeed = 2.5;            // pipe speed
+let gravity = 0.45;             // lighter gravity (easier)
 let flapPower = -5.5;           // upward impulse when flapping
 
 const birdEl = document.querySelector('.bird');
@@ -173,7 +173,7 @@ function createPipes() {
 
     const pipeWidth = Math.round(Math.max(60, vw * 0.12));
     const pipeHeight = Math.round(vh * 0.9);
-    const pipeGap = Math.round(vh * 0.35); // bigger gap between pipes
+    const pipeGap = Math.round(vh * 0.33); // bigger gap between pipes
 
     const gapTopMin = Math.round(vh * 0.12);
     const gapTopMax = Math.round(vh * 0.60 - pipeGap);
