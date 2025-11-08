@@ -12,7 +12,7 @@ const scoreTitleEl = document.querySelector('.score_title');
 const messageEl = document.querySelector('.message');
 
 // 🎵 background music (MOV format)
-const bgMusic = new Audio('sounds effect/bg-music.mov');
+const bgMusic = new Audio('sounds effect/DieTrim.mp3');
 bgMusic.loop = true;
 bgMusic.volume = 0.5;
 
