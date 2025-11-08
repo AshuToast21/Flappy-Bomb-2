@@ -173,7 +173,7 @@ function createPipes() {
 
     const pipeWidth = Math.round(Math.max(60, vw * 0.12));
     const pipeHeight = Math.round(vh * 0.9);
-    const pipeGap = Math.round(vh * 0.33); // bigger gap between pipes
+    const pipeGap = Math.round(vh * 0.299); // bigger gap between pipes
 
     const gapTopMin = Math.round(vh * 0.12);
     const gapTopMax = Math.round(vh * 0.60 - pipeGap);
